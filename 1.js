@@ -67,9 +67,3 @@ console.log(
     [[2]]
   ])
 ) // 107
-
-
-
-
-//do not change the code below
-module.exports = deepSum
