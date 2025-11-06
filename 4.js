@@ -1,5 +1,22 @@
 function sortAlphabet(str) {
-  // you can only write your code here!
+  // write your code here!
+
+  let alphabet = 'abcdefghijklmnopqrstuvwxyz';
+  let sortResult = ''
+
+  for (let i = 0; i < alphabet.length; i++) {
+    // console.log(alphabet[i], '<< alphabet[i]');
+    let perAlphabet = alphabet[i];
+    
+    for (let j = 0; j < str.length; j++) {
+      let perChar = str[j];
+      if (perChar === perAlphabet) {
+        sortResult += perChar;
+        // console.log(sortResult, '<< sortResult');
+      }
+    }
+  }
+  return sortResult
 }
 
 // TEST CASES
